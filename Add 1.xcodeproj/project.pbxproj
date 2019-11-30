@@ -15,6 +15,7 @@
 		93CA6A682392D94F0024EBDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93CA6A662392D94F0024EBDD /* LaunchScreen.storyboard */; };
 		93CA6A732392D94F0024EBDD /* Add_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA6A722392D94F0024EBDD /* Add_1Tests.swift */; };
 		93CA6A7E2392D94F0024EBDD /* Add_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA6A7D2392D94F0024EBDD /* Add_1UITests.swift */; };
+		93CA6A8C2392FD760024EBDD /* HVD_Comic_Serif_Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 93CA6A8B2392FD760024EBDD /* HVD_Comic_Serif_Pro.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		93CA6A792392D94F0024EBDD /* Add 1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Add 1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93CA6A7D2392D94F0024EBDD /* Add_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add_1UITests.swift; sourceTree = "<group>"; };
 		93CA6A7F2392D94F0024EBDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93CA6A8B2392FD760024EBDD /* HVD_Comic_Serif_Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = HVD_Comic_Serif_Pro.otf; path = "../../../iosstuff/HVD-Comic-Serif-Pro/HVD_Comic_Serif_Pro.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				93CA6A642392D94F0024EBDD /* Assets.xcassets */,
 				93CA6A662392D94F0024EBDD /* LaunchScreen.storyboard */,
 				93CA6A692392D94F0024EBDD /* Info.plist */,
+				93CA6A8B2392FD760024EBDD /* HVD_Comic_Serif_Pro.otf */,
 			);
 			path = "Add 1";
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 			files = (
 				93CA6A682392D94F0024EBDD /* LaunchScreen.storyboard in Resources */,
 				93CA6A652392D94F0024EBDD /* Assets.xcassets in Resources */,
+				93CA6A8C2392FD760024EBDD /* HVD_Comic_Serif_Pro.otf in Resources */,
 				93CA6A632392D9460024EBDD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
