@@ -81,7 +81,9 @@ class GameViewController: UIViewController {
 
         if timer == nil {
             timer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { timer in
-                if self.seconds <= 60 {
+                if self.seconds == 0 {
+                    self.finishGame()
+                } else if self.seconds <= 60 {
                     self.seconds -= 1
                     self.updateTimeLabel()
                 }
@@ -102,7 +104,7 @@ class GameViewController: UIViewController {
         score = 0
         seconds = 60
 
-        updateNumberLabel()
+        updateTimeLabel()
         updateScoreLabel()
         updateNumberLabel()
     }
